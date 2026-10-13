@@ -110,6 +110,8 @@ jobs:
           # this workflow names no Ferralon host and cannot drift into pointing at the
           # wrong one.
           link-to-console: true
+          runs-url: https://api.ferralon.com/runs
+          ingest-url: https://api.ferralon.com/ingest
           state-repo: ${{ github.repository }}
           state-ref: refs/tegron/state
           # Fetches Ferralon's published advisory corpus — a public dataset on
