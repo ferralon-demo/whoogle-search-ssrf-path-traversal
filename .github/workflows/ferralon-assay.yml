@@ -88,7 +88,7 @@ jobs:
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
       - id: assay
-        uses: ferralon-ai/ferralon-assay@a0690636812cf0b48ad764829ab52cb44e0a8dc6
+        uses: ferralon-ai/ferralon-assay@v0.5
         with:
           # Links this repository's scans to your Ferralon console. This is the ONLY
           # switch that decides whether the scan talks to Ferralon at all. Set it to
